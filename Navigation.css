@@ -1,0 +1,19 @@
+.topnav{
+    height:50px;
+    background:linear-gradient(to right ,#109eae,#04dec4);
+}
+.topnav ul {
+    position: fixed;
+    right:70px;
+    max-width:500px;
+    padding-top:17px;
+}
+.topnavLink{
+font-size:14px;
+color: #444;
+letter-spacing:1px;
+text-decoration: none;
+font-family: 'Baloo Tamma 2';
+margin:auto 20px;
+
+}
