@@ -1,3 +1,4 @@
+/* Top Nav */
 .topnav{
     height:50px;
     background:linear-gradient(to right ,#109eae,#04dec4);
@@ -13,7 +14,53 @@ font-size:14px;
 color: #444;
 letter-spacing:1px;
 text-decoration: none;
-font-family: 'Baloo Tamma 2';
+font-family: 'Roboto';
 margin:auto 20px;
-
+}
+/* Navigation */
+.navigation{
+    height:100px;
+    position: sticky;
+    top:0;
+    background:linear-gradient(to right ,#109eae,#04dec4);
+    padding:0px 30px;
+    display: flex;
+    justify-content:space-between;
+}
+@media screen and (min-width:900px){
+    .navigation{
+        padding:0px 100px 0px 50px;
+    } 
+    .menu-focus{
+        padding:03px 15px;
+        background-color: #f2cf54;
+        color: #444;
+        font-size:16px;
+        border-radius:5px;
+    } 
+}
+nav{
+    width:500px;
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    height:100%;
+}
+nav ul li {
+    margin:auto 0px;
+}
+ul li a{
+    font-size:14px;
+    color: #fff;
+    letter-spacing:1px;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+/* CTA */
+.cta{
+height: 1000px;
+background-color: #000;
 }

@@ -3,3 +3,18 @@
     padding:0;
     font-family: 'Montserrat';
 }
+li{
+    list-style-type:none;
+}
+/* Logo */
+.Logo{
+    height:70px;
+    transition:.3s;
+}
+.logoBars{
+    padding:15px  0px;
+}
+.Logo:hover{
+    transition:.3s;
+    transform:scale(1.1)
+}
